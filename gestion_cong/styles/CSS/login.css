@@ -1,0 +1,126 @@
+ *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'oswald',sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgb(255 255 255 / 80%),rgb(0 0 0 / 76%)) , url(../images/login2.jpg);  
+    background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+   
+}
+
+
+
+.container{
+    position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-weight: bold;
+   background-color:#06527a;
+    color:#fff;
+    padding:30px;
+    border-radius: 10px;
+}   
+
+.titre ul{
+    display: flex;
+    list-style: none;
+    letter-spacing: 10px;
+    animation: flash 3s infinite;
+}
+
+@keyframes flash{
+    50%{
+        color:#ffa500;
+    }
+    100%{
+        color: #ff4500;
+    }
+}
+
+  .corps_formulaire{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}  
+  
+.container .corps_formulaire .boite{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.container .corps_formulaire .boite input{
+          margin-top: 5px;
+          padding:10px 5px 10px 30px;
+          border: none;
+          border-radius: 10px;
+          width: 188px;
+
+
+}
+
+
+.container .corps_formulaire .boite i{
+      position: absolute;
+      left:0px;
+      top: 25px;
+      padding: 9px 8px;
+      color:#000000;
+}
+
+
+
+  .cnx{
+    
+    background-color: #ffffff;
+    background-size: 50px;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    margin-left: 30px;
+    border-radius: 7px;
+    padding: 3px;
+} 
+
+
+.cnx:hover{
+    background-color: #ffa500;
+}
+ .alert{
+    padding: 7px;
+    background-color: #ee1919;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+ 
+.btn{
+
+     background-color: #12949f;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.btn:hover{
+
+     background-color: #0c6c74;
+    
+
+}
